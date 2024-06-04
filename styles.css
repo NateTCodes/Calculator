@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(120deg, #1509b4, #2fecaa, #20e12a);
+    margin:0;
+    height: 100vh;
+}
+h1{
+    color: #193591;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 20px 3px;
+    background-color: black;
+    border: 10px solid silver;
+    border-radius: 40px;
+}
+#display {
+    text-align: end;
+    width: 250px;
+    height: auto;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 60px;
+    padding: 90px 0px 20px 60px;
+}   
+button{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(114, 111, 111);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#zero {
+    width: 170px;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 10px;
+    border-radius: 42%;
+}
+#divide, #multiply, #subtract, #add, #equals {
+    background-color: #f69635;
+    color: white;
+}
+#clear, #sign, #percent {
+    background-color: rgb(185, 184, 184);
+}
+.time-battery-wifi {
+    display: flex;
+    gap: 250px;
+    padding-top: 3px;
+}
+.icons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+#signal {
+    height: 12px;
+    padding-top: 2px;
+}
+#time{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+
