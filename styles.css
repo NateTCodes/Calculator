@@ -39,7 +39,7 @@ button{
     margin: 5px;
     font-size: 30px;
     font-weight: bold;
-    background-color: rgb(114, 111, 111);
+    background-color: rgb(74, 72, 72);
     color: white;
     border: none;
     border-radius: 50%;
@@ -52,11 +52,11 @@ button{
     margin-left: 10px;
     border-radius: 42%;
 }
-#divide, #multiply, #subtract, #add, #equals {
+.operator, #equals {
     background-color: #f69635;
     color: white;
 }
-#clear, #sign, #percent {
+.misc {
     background-color: rgb(185, 184, 184);
 }
 .time-battery-wifi {
@@ -79,6 +79,18 @@ button{
     font-size: 12px;
     font-weight: bold;
     padding-top: 3px;
+}
+.number:hover {
+    background-color: rgb(139, 135, 135);
+}
+.misc:hover {
+    background-color: rgb(200, 196, 196);
+}
+.operator:hover {
+    background-color: rgb(247, 170, 93);
+}
+#equals:hover {
+    background-color:rgb(247, 170, 93); ;
 }
 
 
